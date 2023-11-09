@@ -10,10 +10,10 @@
 MPU6050 mpu;
 VL53L0X sensor;
 
-Servo motor1; 
-Servo motor2;  
-Servo motor3;  
-Servo motor4;  
+motor1; 
+motor2;  
+motor3;  
+motor4;  
 
 int targetRoll = 0;    // Ángulo de balanceo
 int targetPitch = 0;   // Ángulo de inclinación 
